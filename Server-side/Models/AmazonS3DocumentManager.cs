@@ -106,7 +106,7 @@ namespace Syncfusion.EJ2.FileManager.AmazonS3DocumentManager
                 if (response.S3Objects.Count > 0)
                 {
                     filesS3 = response.S3Objects
-                        .Where(x => x.Key != RootName.Replace("/", "") + path)
+                        .Where(x => x.Key != RootName.Replace("/", "") + path && Path.GetExtension(x.Key).Equals(".pdf", StringComparison.OrdinalIgnoreCase))
                         .Select(y =>
                         {
                             string key = y.Key.ToString();
