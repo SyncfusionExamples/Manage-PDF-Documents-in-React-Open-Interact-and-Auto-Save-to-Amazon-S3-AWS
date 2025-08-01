@@ -1,0 +1,58 @@
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-documenteditor/styles/material.css";
+
+@import '../node_modules/@syncfusion/ej2-icons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-layouts/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-grids/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-react-filemanager/styles/material.css";
+
+
+@import "../node_modules/@syncfusion/ej2-react-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-popups/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-pdfviewer/styles/material.css";
+
+/* Styles for the azure file manager dialog component */
+#dialog-component-sample {
+  max-height: max-content !important;
+  top: 15% !important;
+  left: 10% !important;
+}
+
+/* Styles for the current document header */
+#pdf-header {
+  padding: 8px;
+  background: #1613B0;
+  color: white;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Styles for the file manager open button */
+#openAwsBucketStorage {
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#CustomNew, #OpenAwsFileManager{
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+#DownloadToLocal {
+  margin-right: 6px;
+}
+
+.custom-dialog-prompt.e-dialog.e-popup {
+  top: 30% !important;
+}
